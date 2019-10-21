@@ -1,0 +1,15 @@
+.dir-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    background-color: black;
+    border-bottom: coral;
+}
+
+.search-input {
+    width: 250px;
+    height: 15px;
+    margin: 20px 30px 20px 0px;
+}
+
