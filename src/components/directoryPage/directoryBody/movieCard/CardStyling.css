@@ -7,7 +7,7 @@
 }
 
 .image-wrapper {
-    width: 92%;
+    width: 90%;
     margin-bottom: 8px;
 }
 
@@ -20,8 +20,12 @@
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
     color: white;
+}
+
+.movie-name {
+    margin-bottom: 5px;
 }
 
 

@@ -1,8 +1,13 @@
 import React from 'react';
+import '../movieGenre/GenreStyling.css'
 
-const MovieGenre = () => {
+const MovieGenre = ({movieGenres}) => {
     return (
-        null
+        <div className="genre-wrapper">
+            {movieGenres.map((genre) => {
+                return <div className="movie-genre">{genre}</div>
+            })}
+        </div>
     )
 }
 

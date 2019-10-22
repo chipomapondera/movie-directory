@@ -22,9 +22,9 @@ const data = {
             },
 
             {
-                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/hKzhV274pkZBSpXfCjUyzbyYKLl.jpg',
-                movieName: 'Creed',
-                movieYear: '2015',
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/6u85CuvnbrzWMhKbGk4Bm5RnO3V.jpg',
+                movieName: 'The Help',
+                movieYear: '2011',
                 movieGenres: ['Drama']
             },
 
@@ -39,6 +39,13 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/qAwFbszz0kRyTuXmMeKQZCX3Q2O.jpg',
                 movieName: 'Moonlight',
                 movieYear: '2016',
+                movieGenres: ['Drama']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/hKzhV274pkZBSpXfCjUyzbyYKLl.jpg',
+                movieName: 'Creed',
+                movieYear: '2015',
                 movieGenres: ['Drama']
             },
 
@@ -75,6 +82,13 @@ const data = {
                 movieName: 'The Lion King',
                 movieYear: '2019',
                 movieGenres: ['Drama', 'Family']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/cWXkRLmzKfYutvWeJXaednoGKdF.jpg',
+                movieName: 'Project X',
+                movieYear: '2012',
+                movieGenres: ['Comedy']
             },
 
             {
@@ -135,9 +149,16 @@ const data = {
 
             {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg',
-                movieName: 'Spider-Man: Into the Spider-Verse ',
+                movieName: 'Spider-Man: Into the Spider-Verse',
                 movieYear: '2018',
                 movieGenres: ['Action', 'Comedy', 'Sci-Fi']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/ilrZAV2klTB0FLxLb01bOp5pzD9.jpg',
+                movieName: 'Silver Linings Playbook',
+                movieYear: '2012',
+                movieGenres: ['Comedy', 'Drama', 'Romance']
             },
 
             {
@@ -166,6 +187,20 @@ const data = {
                 movieName: 'Inside Out',
                 movieYear: '2015',
                 movieGenres: ['Comedy', 'Drama', 'Family']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/fTplI1NCSuEDP4ITLcTps739fcC.jpg',
+                movieName: 'Harry Potter and the Deathly Hallows: Part 2',
+                movieYear: '2011',
+                movieGenres: ['Family', 'Fantasy']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/nu7XIa67cXc2t7frXCE5voXUJcN.jpg',
+                movieName: 'Drive',
+                movieYear: '2011',
+                movieGenres: ['Action', 'Crime', 'Drama']
             },
 
             {
@@ -221,7 +256,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/2i0JH5WqYFqki7WDhUW56Sg0obh.jpg',
                 movieName: 'Cinderella',
                 movieYear: '2015',
-                movieGenres: ['Drama', 'Family', 'Fantasy', 'Romance']
+                movieGenres: ['Drama', 'Fantasy', 'Romance']
             },
 
             {
@@ -253,6 +288,13 @@ const data = {
             },
 
             {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/cyNQLnHnXZcTUDXVVSEYmquOTOI.jpg',
+                movieName: 'The Perks of Being a Wallflower',
+                movieYear: '2012',
+                movieGenres: ['Drama']
+            },
+
+            {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg',
                 movieName: 'Bird Box',
                 movieYear: '2018',
@@ -263,7 +305,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/4FYu1AAu14tuBU0lns0hbKiHUcH.jpg',
                 movieName: 'Maleficent',
                 movieYear: '2014',
-                movieGenres: ['Action', 'Drama', 'Family', 'Fantasy', 'Romance']
+                movieGenres: ['Drama', 'Family', 'Fantasy']
             },
 
             {
@@ -271,6 +313,13 @@ const data = {
                 movieName: 'Harry Potter and the Prisoner of Azkaban',
                 movieYear: '2004',
                 movieGenres: ['Family', 'Fantasy']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/eA2D86Y6VPWuUzZyatiLBwpTilQ.jpg',
+                movieName: 'The Amazing Spider-Man',
+                movieYear: '2012',
+                movieGenres: ['Action', 'Fantasy']
             },
 
             {
@@ -352,6 +401,13 @@ const data = {
             },
 
             {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/cezWGskPY5x7GaglTTRN4Fugfb8.jpg',
+                movieName: 'The Avengers',
+                movieYear: '2012',
+                movieGenres: ['Action', 'Sci-Fi']
+            },
+
+            {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/3BpgeGHYxle9ob4cLiONgESvqVB.jpg',
                 movieName: 'Blue Is the Warmest Color',
                 movieYear: '2013',
@@ -362,9 +418,16 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/si1ZyELNHdPUZw4pXR5KjMIIsBF.jpg',
                 movieName: 'Ghost in the Shell',
                 movieYear: '2017',
-                movieGenres: ['Action', 'Drama', 'Sci-Fi', 'Thriller']
+                movieGenres: ['Action', 'Drama', 'Sci-Fi']
             },
 
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/x5ucaJZ4FP589Gn3I8l3ZFV3Nl8.jpg',
+                movieName: 'Bridesmaids',
+                movieYear: '2011',
+                movieGenres: ['Comedy', 'Romance']
+            },
+            
             {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/iySFtKLrWvVzXzlFj7x1zalxi5G.jpg',
                 movieName: 'Lady Bird',
