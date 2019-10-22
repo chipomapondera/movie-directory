@@ -7,23 +7,20 @@
     align-items: flex-start;
     justify-content: center;
     margin: 0px auto;
-    background-color: red;
 }
 
 .dir-wrapper {
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    padding-left: 55px;
-    background-color: yellow;
+    justify-content: space-between;
+    margin: 0px auto;
 }
 
 .card-container{
     display: flex;
     flex-wrap: wrap;
-    width: 25%;
-    margin: 40px 10px 10px 10px;
-    background-color: crimson;
+    width: 15%;
+    margin: 40px 0px 10px 0px;
 }
 

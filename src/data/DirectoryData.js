@@ -29,6 +29,13 @@ const data = {
             },
 
             {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/8zkJyC4xImfnYJREDQTfW09m8A5.jpg',
+                movieName: 'Being John Malkovich',
+                movieYear: '1999',
+                movieGenres: ['Comedy', 'Drama', 'Fantasy']
+            },
+
+            {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/qAwFbszz0kRyTuXmMeKQZCX3Q2O.jpg',
                 movieName: 'Moonlight',
                 movieYear: '2016',
@@ -148,6 +155,13 @@ const data = {
             },
 
             {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/hyaOKmxuF8YJKHqWlwpiZU5QsAr.jpg',
+                movieName: 'The Blair Witch Project',
+                movieYear: '1999',
+                movieGenres: ['Horror']
+            },
+
+            {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/aAmfIX3TT40zUHGcCKrlOZRKC7u.jpg',
                 movieName: 'Inside Out',
                 movieYear: '2015',
@@ -253,6 +267,13 @@ const data = {
             },
 
             {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/jUFjMoLh8T2CWzHUSjKCojI5SHu.jpg',
+                movieName: 'Harry Potter and the Prisoner of Azkaban',
+                movieYear: '2004',
+                movieGenres: ['Family', 'Fantasy']
+            },
+
+            {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/wNA4jKuDdUuQUW78Pj2VoWKwlbC.jpg',
                 movieName: 'Amityville: The Awakening',
                 movieYear: '2017',
@@ -349,6 +370,13 @@ const data = {
                 movieName: 'Lady Bird',
                 movieYear: '2017',
                 movieGenres: ['Comedy', 'Drama']
+            },
+
+            {
+                imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg',
+                movieName: 'Star Wars: Episode I - The Phantom Menace',
+                movieYear: '1999',
+                movieGenres: ['Action', 'Sci-Fi']
             },
 
             {
