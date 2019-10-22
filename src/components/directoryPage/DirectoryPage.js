@@ -4,11 +4,11 @@ import DirectoryBody from './directoryBody/DirectoryBody';
 import '../directoryPage/PageStyling.css'
 
 
-const DirectoryPage = ({genresBoxNames}) => {
+const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
     return (
         <>
             <DirectoryHeader genresBoxNames={genresBoxNames}/>
-            <DirectoryBody />
+            <DirectoryBody movieListInfo={movieListInfo}/>
         </>
     )
 }
