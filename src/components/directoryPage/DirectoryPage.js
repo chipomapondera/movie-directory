@@ -6,20 +6,16 @@ import '../directoryPage/PageStyling.css'
 
 const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
 
-    const [searchInput, setSearchInput] = useState(null)
+    const [searchInput, setSearchInput] = useState('')
     const [movieData, setMovieData] = useState(movieListInfo)
 
     const userSearch = () => {
-
         if (searchInput) {
-            if (typeof searchInput) {
-                const filterDataName = filter(movieListInfo, function(movie) {
-                    const inputMovieName = movie.movieName.toLowerCase()
-                    return inputMovieName.includes(searchInput)
-                })
-                setMovieData(filterDataName)
-            }
-    } else {
+            const filterData = filter(movieListInfo, function(movie) {
+                return movie.movieYear.includes(searchInput) || movie.movieName.toLowerCase().includes(searchInput)
+            })
+                setMovieData(filterData)
+            } else {
         setMovieData(movieListInfo)
     }
 }
