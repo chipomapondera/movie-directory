@@ -1,7 +1,7 @@
 const data = {
     
     genresCheckboxes: {
-        genresInfo: ['Drama', 'Comedy', 'Action', 'Romance', 'Fantasy', 'Sci-Fi', 'Crime', 'Thriller', 'Horror', 'Family']
+        genresInfo: ['Drama', 'Comedy', 'Action', 'Romance', 'Fantasy', 'Sci-Fi', 'Crime', 'Horror', 'Family']
     },
 
     moviesDirectory: {
@@ -11,14 +11,14 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg',
                 movieName: 'Joker',
                 movieYear: '2019',
-                movieGenres: ['Crime', 'Drama', 'Thriller']
+                movieGenres: ['Crime', 'Drama']
             },
 
             {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/rdPGUJhadPg7FGFNzavib0iwTor.jpg',
                 movieName: 'Get Out',
                 movieYear: '2017',
-                movieGenres: ['Horror', 'Thriller']
+                movieGenres: ['Horror']
             },
 
             {
@@ -95,14 +95,14 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/dQ7uxvsVTspVIsqjfgQj8usJpwX.jpg',
                 movieName: 'Black Swan',
                 movieYear: '2010',
-                movieGenres: ['Drama', 'Thriller']
+                movieGenres: ['Drama']
             },
 
             {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/ePXuKdXZuJx8hHMNr2yM4jY2L7Z.jpg',
                 movieName: 'El Camino: A Breaking Bad Movie',
                 movieYear: '2019',
-                movieGenres: ['Crime', 'Drama', 'Thriller']
+                movieGenres: ['Crime', 'Drama']
             },
 
             {
@@ -249,7 +249,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg',
                 movieName: 'It',
                 movieYear: '2017',
-                movieGenres: ['Horror', 'Thriller']
+                movieGenres: ['Horror']
             },
 
             {
@@ -298,7 +298,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg',
                 movieName: 'Bird Box',
                 movieYear: '2018',
-                movieGenres: ['Drama', 'Thriller']
+                movieGenres: ['Drama']
             },
 
             {
@@ -326,7 +326,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/wNA4jKuDdUuQUW78Pj2VoWKwlbC.jpg',
                 movieName: 'Amityville: The Awakening',
                 movieYear: '2017',
-                movieGenres: ['Horror', 'Thriller']
+                movieGenres: ['Horror']
             },
 
             {
@@ -341,7 +341,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/rXsh4MI6uyVgZBSSzXCfitJnVPy.jpg',
                 movieName: 'Midsommar',
                 movieYear: '2019',
-                movieGenres: ['Horror', 'Drama', 'Thriller']
+                movieGenres: ['Horror', 'Drama']
             },
 
             {
@@ -397,7 +397,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/aZqKsvpJDFy2UzUMsdskNFbfkOd.jpg',
                 movieName: 'Shutter Island',
                 movieYear: '2010',
-                movieGenres: ['Drama', 'Thriller']
+                movieGenres: ['Drama']
             },
 
             {

@@ -16,7 +16,7 @@ const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
             })
                 setMovieData(filterData)
             } else {
-        setMovieData(movieListInfo)
+                setMovieData(movieListInfo)
     }
 }
 
@@ -24,12 +24,27 @@ useEffect(() => {
     userSearch()
 }, [searchInput])
 
+const genreSelected = (genreSelector) => {
+    if (genreSelector === true) {
+        const filterData = filter(movieListInfo, function(movie) {
+            return movie.movieGenres.includes(genreSelector)
+        })
+        setMovieData(filterData)
+    }
+}
+
+const allButton = () => {
+    setMovieData(movieListInfo)
+}
+
     return (
         <>
             <DirectoryHeader 
             genresBoxNames={genresBoxNames}
             value={searchInput}
             onChange={(e)=>setSearchInput(e.target.value)}
+            onClickHandler={genreSelected}
+            allOnClickHandler={allButton}
             />
             <DirectoryBody movieListInfo={movieData}/>
         </>
