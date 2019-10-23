@@ -25,7 +25,7 @@ useEffect(() => {
 }, [searchInput])
 
 const genreSelected = (genreSelector) => {
-    if (genreSelector === true) {
+    if (genreSelector) {
         const filterData = filter(movieListInfo, function(movie) {
             return movie.movieGenres.includes(genreSelector)
         })

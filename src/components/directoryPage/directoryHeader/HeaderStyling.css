@@ -36,6 +36,10 @@
     border-radius: 25px;
 }
 
+.this-button:hover, .all-button:hover {
+    background-color: blue;
+    color: white;
+  }
 
 @media (min-width: 320px) {
     .dir-header {
