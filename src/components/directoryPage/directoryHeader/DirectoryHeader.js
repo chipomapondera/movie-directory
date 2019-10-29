@@ -1,13 +1,13 @@
 import React from 'react';
 import '../directoryHeader/HeaderStyling.css'
 
-const DirectoryHeader = ({genresBoxNames, value, onChange}) => {
+const DirectoryHeader = ({genresBoxNames, value, onChange, handleToggle}) => {
     return (
         <div className="dir-header">
             <input className="search-input" value={value} onChange={onChange} placeholder='Search here...' />
             <div className="checkbox-wrapper">
                 {genresBoxNames.map((movieGenre) => {
-                    return <div className="genre-checkboxes"><input className="check-box" type="checkbox" name={movieGenre} value={movieGenre}/><span className="genre-text">{movieGenre}</span></div>
+                    return <div className="genre-checkboxes"><input className="check-box" type="checkbox" name={movieGenre} value={movieGenre} onClick={handleToggle} /><span className="genre-text">{movieGenre}</span></div>
                 })}
             </div>
         </div> 
