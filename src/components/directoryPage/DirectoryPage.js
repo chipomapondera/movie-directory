@@ -8,7 +8,7 @@ const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
 
     const [searchInput, setSearchInput] = useState('')
     const [movieData, setMovieData] = useState(movieListInfo)
-    
+
     const userSearch = debounce(() => {
         if (searchInput) {
             const filterData = filter(movieListInfo, function(movie) {
@@ -25,11 +25,13 @@ useEffect(() => {
 }, [searchInput])
 
 const genreSelected = (genreSelector) => {
+    
     if(genreSelector) {
-        const filterData = filter(movieListInfo, function(movie) {
-            return movie.movieGenres.includes(genreSelector)
-        })
-        setMovieData(filterData)
+//    const filterData =movieListInfo.some(()=>)
+//         // const filterData =movieListInfo.some(function(movie) {
+//         //     return movie.movieGenres.includes(genreSelector)
+//         // })
+        setMovieData(finaleData)
     } else {
         setMovieData(movieListInfo)
     }
