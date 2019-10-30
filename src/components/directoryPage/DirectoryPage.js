@@ -8,8 +8,7 @@ const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
 
     const [searchInput, setSearchInput] = useState('')
     const [movieData, setMovieData] = useState(movieListInfo)
-    const [value, setValue] = useState(false)
-
+    
     const userSearch = debounce(() => {
         if (searchInput) {
             const filterData = filter(movieListInfo, function(movie) {
@@ -43,7 +42,7 @@ const genreSelected = (genreSelector) => {
             genresBoxNames={genresBoxNames}
             value={searchInput}
             onChange={(e)=>setSearchInput(e.target.value)}
-            handleToggle={()=> genreSelected}
+            handleToggle={(e)=>genreSelected(e.target.value)}
             />
             <DirectoryBody movieListInfo={movieData}/>
         </>
