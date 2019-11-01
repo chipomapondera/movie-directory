@@ -1,7 +1,7 @@
 const data = {
     
     genresCheckboxes: {
-        genresInfo: ['Drama', 'Comedy', 'Action', 'Romance', 'Fantasy', 'Sci-Fi', 'Crime', 'Thriller', 'Horror', 'Family']
+        genresInfo: ['Drama', 'Comedy', 'Action', 'Romance', 'Fantasy', 'SciFi', 'Crime', 'Thriller', 'Horror', 'Family']
     },
 
     moviesDirectory: {
@@ -109,7 +109,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/lcq8dVxeeOqHvvgcte707K0KVx5.jpg',
                 movieName: 'Spider-Man: Far from Home',
                 movieYear: '2019',
-                movieGenres: ['Action', 'Crime', 'Sci-Fi']
+                movieGenres: ['Action', 'Crime', 'SciFi']
             },
 
             {
@@ -151,7 +151,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg',
                 movieName: 'Spider-Man: Into the Spider-Verse',
                 movieYear: '2018',
-                movieGenres: ['Action', 'Comedy', 'Sci-Fi']
+                movieGenres: ['Action', 'Comedy', 'SciFi']
             },
 
             {
@@ -165,14 +165,14 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg',
                 movieName: 'Interstellar ',
                 movieYear: '2014',
-                movieGenres: ['Drama', 'Sci-Fi']
+                movieGenres: ['Drama', 'SciFi']
             },
 
             {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/uxzzxijgPIY7slzFvMotPv8wjKA.jpg',
                 movieName: 'Black Panther',
                 movieYear: '2018',
-                movieGenres: ['Action', 'Fantasy', 'Sci-Fi']
+                movieGenres: ['Action', 'Fantasy', 'SciFi']
             },
 
             {
@@ -228,7 +228,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/2mkFzf168xJrV6Leqq0bjqOlJCK.jpg',
                 movieName: 'I, Robot',
                 movieYear: '2004',
-                movieGenres: ['Action', 'Sci-Fi']
+                movieGenres: ['Action', 'SciFi']
             },
 
             {
@@ -242,7 +242,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/lZpWprJqbIFpEV5uoHfoK0KCnTW.jpg',
                 movieName: 'The Matrix',
                 movieYear: '1999',
-                movieGenres: ['Action', 'Sci-Fi']
+                movieGenres: ['Action', 'SciFi']
             },
 
             {
@@ -263,7 +263,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/qjiskwlV1qQzRCjpV0cL9pEMF9a.jpg',
                 movieName: 'Rogue One: A Star Wars Story',
                 movieYear: '2016',
-                movieGenres: ['Action', 'Sci-Fi']
+                movieGenres: ['Action', 'SciFi']
             },
 
             {
@@ -362,7 +362,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg',
                 movieName: 'Star Wars: The Last Jedi',
                 movieYear: '2017',
-                movieGenres: ['Action', 'Fantasy', 'Sci-Fi']
+                movieGenres: ['Action', 'Fantasy', 'SciFi']
             },
 
             {
@@ -404,7 +404,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/cezWGskPY5x7GaglTTRN4Fugfb8.jpg',
                 movieName: 'The Avengers',
                 movieYear: '2012',
-                movieGenres: ['Action', 'Sci-Fi']
+                movieGenres: ['Action', 'SciFi']
             },
 
             {
@@ -418,7 +418,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/si1ZyELNHdPUZw4pXR5KjMIIsBF.jpg',
                 movieName: 'Ghost in the Shell',
                 movieYear: '2017',
-                movieGenres: ['Action', 'Drama', 'Sci-Fi']
+                movieGenres: ['Action', 'Drama', 'SciFi']
             },
 
             {
@@ -439,7 +439,7 @@ const data = {
                 imageUrl: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg',
                 movieName: 'Star Wars: Episode I - The Phantom Menace',
                 movieYear: '1999',
-                movieGenres: ['Action', 'Sci-Fi']
+                movieGenres: ['Action', 'SciFi']
             },
 
             {

@@ -8,6 +8,7 @@ const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
 
     const [searchInput, setSearchInput] = useState('')
     const [movieData, setMovieData] = useState(movieListInfo)
+    const [searchArray, setSearchArray] = useState([])
 
     const userSearch = debounce(() => {
         if (searchInput) {
@@ -18,25 +19,37 @@ const DirectoryPage = ({genresBoxNames, movieListInfo}) => {
             } else {
         setMovieData(movieListInfo)
     }
-}, 250, { 'maxWait': 1000})
+    }, 250, { 'maxWait': 1000})
 
-useEffect(() => {
-    userSearch()
-}, [searchInput])
+    useEffect(() => {
+        userSearch()
+    }, [searchInput])
 
-const genreSelected = (genreSelector) => {
-    
-    if(genreSelector) {
-//    const filterData =movieListInfo.some(()=>)
-//         // const filterData =movieListInfo.some(function(movie) {
-//         //     return movie.movieGenres.includes(genreSelector)
-//         // })
-        setMovieData(finaleData)
-    } else {
-        setMovieData(movieListInfo)
+    const genreSelected = (genreSelector) => {
+        if(genreSelector.length >= 1) {
+            const filterData =movieListInfo.filter(function(movie) {
+                return movie.movieGenres.some((category)=> genreSelector.includes(category))
+            })
+            setMovieData(filterData)
+        } else {
+            setMovieData(movieListInfo)
+        }
     }
-}
-    
+
+    const updateSearchArray = (e)=> {
+        if(searchArray.includes(e)) {
+            const filterData =searchArray.filter((item)=> {
+                return !(item===e)
+            })
+            genreSelected(filterData)
+            setSearchArray(filterData)
+        } else {
+            const filterData = searchArray
+            filterData.push(e)
+            genreSelected(filterData)
+            setSearchArray(filterData)
+        }
+    }
 
     return (
         <>
@@ -44,7 +57,7 @@ const genreSelected = (genreSelector) => {
             genresBoxNames={genresBoxNames}
             value={searchInput}
             onChange={(e)=>setSearchInput(e.target.value)}
-            handleToggle={(e)=>genreSelected(e.target.value)}
+            handleToggle={(e)=>updateSearchArray(e.target.value)}
             />
             <DirectoryBody movieListInfo={movieData}/>
         </>
